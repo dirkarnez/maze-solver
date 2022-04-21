@@ -4,4 +4,6 @@ project(maze-solver C)
 
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
 
-add_executable(${PROJECT_NAME} main.cp)
+add_executable(${PROJECT_NAME}
+    "src/main.c"
+)
